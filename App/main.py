@@ -4,6 +4,7 @@ import sys
 import os
 
 sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 DATABASES = {
     'default': {
