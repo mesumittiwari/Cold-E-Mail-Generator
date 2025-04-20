@@ -1,0 +1,9 @@
+streamlit
+langchain
+langchain-community
+# Add any other libraries you import in your Python files
+# For example, if you use python-dotenv for the .env file:
+python-dotenv
+# If you use pandas for CSV:
+pandas
+# Add specific versions if needed, e.g., streamlit==1.30.0
