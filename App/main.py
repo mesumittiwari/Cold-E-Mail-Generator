@@ -1,5 +1,6 @@
 # Required for ChromaDB compatibility on Streamlit Cloud
-__import__('pysqlite3')
+import sqlite3
+
 import sys
 import os
 
