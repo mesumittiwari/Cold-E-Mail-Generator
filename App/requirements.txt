@@ -3,6 +3,7 @@ langchain
 langchain-community
 langchain_groq
 chromadb
+pysqlite3
 pysqlite3-binary
 # Add any other libraries you import in your Python files
 # For example, if you use python-dotenv for the .env file:
