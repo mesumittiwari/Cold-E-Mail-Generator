@@ -3,6 +3,8 @@ langchain
 langchain-community
 langchain_groq
 chromadb
+requests
+beautifulsoup4
 
 
 pysqlite3-binary
