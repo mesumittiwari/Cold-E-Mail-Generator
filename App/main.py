@@ -1,5 +1,5 @@
 # Required for ChromaDB compatibility on Streamlit Cloud
-import sqlite3
+import pysqlite3
 
 import sys
 import os
