@@ -3,7 +3,7 @@ langchain
 langchain-community
 langchain_groq
 chromadb
-sqlite3
+
 
 pysqlite3-binary
 # Add any other libraries you import in your Python files
