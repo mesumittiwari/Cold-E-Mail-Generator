@@ -1,24 +1,30 @@
-Cold E-Mail Generator
-A Cold E-Mail Generator built with Streamlit and Langchain. This app allows users to generate personalized cold emails based on job descriptions from URLs. It leverages Groq API for content generation and ChromaDB for managing a portfolio of skills and relevant links.
+# ​ AI-Powered Cold Email Generator
 
-Features
-Job Description URL Input: Users can input a URL of a job description.
+Generate personalized cold emails instantly using AI.  
+Live Demo: **[sumit-coldemailgenerator.streamlit.app](https://sumit-coldemailgenerator.streamlit.app/)**
 
-Email Variations: Generate multiple personalized cold email variations based on job requirements.
+---
 
-Editable Emails: Users can directly edit and copy generated emails.
+## ​ Tech Stack
+- **Language:** Python  
+- **UI:** Streamlit  
+- **AI/LLM Framework:** LangChain  
+- **Model API:** Groq API with LLaMA3-70B model  
+- **Utilities:** Sentence Transformers, Pandas  
 
-Portfolio Integration: The app queries portfolio skills to include relevant links in the email.
+---
 
-Requirements
-Python 3.x
+## ​ Features
+- 🔍 **Job URL Parsing:** Extracts key details (like title, required skills, experience) from job descriptions using LangChain and the Groq API.
+- ✉️ **Email Generation:** Creates **three unique, context-aware cold email variations** per job.
+- ⏱ **Fast Workflow:** Generates highly relevant emails in under 10 seconds.
+- 🔄 **Editable Output:** Users can refine generated emails in real-time with an interactive interface.
 
-Streamlit
+---
 
-Langchain
+## ​ Connect with Me
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mesumittiwari/)  
+[![GitHub](https://img.shields.io/badge/GitHub-000000?logo=github&logoColor=white)](https://github.com/mesumittiwari)  
+📧 [sumittiwari2414@gmail.com](mailto:sumittiwari2414@gmail.com)  
 
-Groq API Key (for content generation)
-
-ChromaDB (for portfolio management)
-
-Pandas
+> *Built with ❤️ by Sumit Tiwari*
